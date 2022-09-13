@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>NodeJS Express és FS modulok</title>
+</head>
+<body>
+    <div>
+        <h3>FS Modul példa:</h3>
+        <form action="/api/send" method="post">
+
+            <div>
+                <label for="name">Állat neve:</label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label for="age">Kor:</label>
+                <input type="number" min="0" name="age">
+            </div>
+            <div>
+                <label for="breed">Fajta:</label>
+                <input type="text" name="breed">
+            </div>
+            <div>
+                <label for="desc">Leírás:</label>
+                <textarea name="desc"cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit" value="Mentés">
+        </form>
+    </div>
+</body>
+</html>

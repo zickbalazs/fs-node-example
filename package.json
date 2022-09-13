@@ -1,0 +1,25 @@
+{
+  "name": "fs-node-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zickbalazs/fs-node-example.git"
+  },
+  "author": "ZB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zickbalazs/fs-node-example/issues"
+  },
+  "homepage": "https://github.com/zickbalazs/fs-node-example#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.19"
+  }
+}
